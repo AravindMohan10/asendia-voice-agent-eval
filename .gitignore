@@ -1,0 +1,13 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+# Eval outputs on hand-curated golden set (committed for reviewers)
+# results/custom/ is gitignored if used for BYO runs
+results/custom/

@@ -1,0 +1,20 @@
+vertical: general
+name: General Staffing Screen
+
+must_probe:
+  - relevant_experience
+  - role_fit
+  - communication
+
+red_flags:
+  - major_skill_gap
+  - inconsistent_answers
+  - unable_to_articulate_experience
+
+scoring_weights:
+  experience_match: 0.35
+  communication: 0.25
+  role_alignment: 0.25
+  overall_impression: 0.15
+
+interviewer_tone: professional, concise, recruiter-style

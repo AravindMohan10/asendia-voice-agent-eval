@@ -1,0 +1,854 @@
+id,predicted_decision,confidence,reasoning,risk_flags,escalate_to_human,turns_processed,llm_calls,followups_asked,latency_ms,actual_decision,actual_reason,vertical,difficulty,ingest_format,transcript_excerpt,error
+ad-001,select,90,"Danielle Foster has 7 years of executive assistant experience, meeting the job requirement of 3+ years. She also has advanced Microsoft Office skills, including Outlook, Excel, and PowerPoint, and a typing speed of 72 WPM, exceeding the requirement of 65+ WPM. Her experience in calendar management, travel booking, and phone coverage aligns with the job responsibilities.",[],False,6,1,0,666.5,select,"Seven years EA experience with C-suite support, advanced Office suite, and 72 WPM typing. Confirmed temp-to-perm interest and on-site availability.",admin,clear,labeled,"Recruiter: Hi Danielle, this is Sarah from Apex Staffing. I'm screening for an executive assistant temp-to-perm at a financial services client in Hartford. Can you walk me through your EA background?
+Candidate: Sure. I've supported C-suite executives for seven years, most recently the CFO at Meridian Capital. Heavy Outlook calendaring, board decks in PowerPoint, and I handled a twelve-line phone system daily.
+Recruiter: What's your typing speed and Office comfort level?
+Candidate: Seventy-two wo",
+ad-002,select,80,"Maria has relevant experience as a receptionist, including handling a multi-line phone system and using Microsoft Office. Her typing speed is close to the required 60+ WPM, and she expressed comfort with the schedule and temp-to-perm arrangement. However, her typing speed is slightly below the job's implicit expectation of proficiency, which introduces some uncertainty.",['typing speed slightly below expectation'],False,1,1,0,716.2,select,Strong front-desk background with multi-line phone and Office skills. Typing 68 WPM exceeds requirement; available for temp-to-perm schedule.,admin,clear,asr_paragraph,thanks for taking my call maria this is recruiter james with kelly services screening for a receptionist temp to perm in waltham tell me about your front desk experience candidate i was receptionist at brookline medical for three years answered about eighty calls a day on an eight line cisco system scheduled in outlook and did light excel tracking for supply orders recruiter typing speed and office skills candidate sixty eight wpm on our last test comfortable with word excel and outlook recruite,
+ad-003,select,80,"Kevin has relevant experience as a Data Entry Clerk with high accuracy standards, meeting the job's requirements. His skills in Excel and 10-key are also aligned with the job description. However, there is a discrepancy between his resume and interview transcript regarding his typing speed, which may need clarification.",['discrepancy in typing speed'],False,8,1,0,664.5,select,"Meets data entry requirements: 9,500 KPH with 99.1% accuracy, Excel experience, and prior temp assignments. Confirmed full-time availability for temp-to-perm.",admin,clear,asr_noisy,"hi Kevin um Apex Staffing calling about the data entry temp role. You still interested?
+
+yeah I need something steady
+
+typing speed and accuracy from your last role
+
+about seventy five W P M ninety eight percent accuracy on ten key at the insurance office
+
+this is five days on site downtown parking not reimbursed
+
+that's fine I take the bus
+
+ninety day temp to perm if client likes you. Start Monday if background clears?
+
+yes I can start Monday",
+ad-004,select,90,"Jennifer's background and experience align well with the job requirements, including office coordination, vendor management, and light AP processing. She also has the necessary technical skills, such as Microsoft Office 365 and Excel, and meets the typing speed requirement. Her ability to provide specific examples from her previous experience and her availability to start within the desired timeframe further support her candidacy.",[],False,4,1,0,582.3,select,"Office coordinator experience matches: facilities coordination, vendor management, Office suite, and multi-department scheduling. Strong temp-to-perm fit.",admin,clear,labeled,"Sarah (Recruiter): Jennifer, thanks for applying through Apex. This office coordinator role is temp-to-perm at a real estate client. What's your background?
+Candidate: I've coordinated office operations for five years at Pinnacle — vendor management, supply ordering, shared calendars for forty people, and light AP under five thousand dollars.
+Sarah (Recruiter): How are you with Excel and phones?
+Candidate: Excel for PO tracking and budgets. I cover a four-line system when reception is at lunch —",
+ad-005,select,80,"Robert Kim has 4 years of experience as an AP Clerk, with relevant skills in QuickBooks and Excel, and his typing speed is close to the preferred 60 WPM. He also has previous experience with a temp assignment and is available to start immediately. However, his typing speed is slightly below the preferred rate, which introduces some minor uncertainty.",['typing speed slightly below preference'],False,1,1,0,824.9,select,"AP experience is solid and QuickBooks matches client stack, but only 58 WPM typing is below the 60 WPM JD target. Recruiter advances given strong invoice volume history and temp-to-perm urgency.",admin,borderline,asr_paragraph,recruiter hi robert calling from kelly about the ap clerk temp to perm in lowell walk me through your ap experience candidate four years at summit manufacturing processed about one fifty invoices a week in quickbooks three way matching vendor reconciliations recruiter typing and ten key candidate typing is fifty eight wpm ten key around eighty two hundred kph recruiter jd asks sixty wpm how do you feel about that candidate i am accurate on invoices rarely need corrections i can retest if needed ,
+ad-006,select,80,"Carmen's resume and interview transcript align well with the job requirements, including her experience as an Executive Assistant, proficiency in Office and travel coordination, and bilingual Spanish skills. However, there is a minor discrepancy in her typing speed, which is listed as 70 WPM on her resume, whereas the job requires 65+ WPM, but this is not a significant gap. Her experience and skills make her a strong candidate for the position.",['typing speed slightly below preferred'],False,8,1,0,756.9,select,"EA background with C-suite travel coordination, 70 WPM, and advanced Office. Bilingual Spanish is a plus for this client.",admin,clear,asr_noisy,"Carmen Apex Staffing here executive assistant temp to perm in Miami
+
+tell me about calendar and travel coordination experience
+
+three years supporting a VP at a logistics firm Outlook travel booking expense reports
+
+advanced excel powerpoint required
+
+yes pivot tables exec presentations weekly
+
+bilingual Spanish required for this executive
+
+fluent Spanish written and spoken
+
+I'll submit to client for interview",
+ad-007,select,70,"Ashley has relevant reception experience, meets the typing speed requirement, and is comfortable with Microsoft Office. She also demonstrates a professional demeanor and experience handling high-volume calls and anxious clients, which could translate well to a law firm environment. However, she falls slightly short of the two-year reception experience requirement.",['less than 2 years of reception experience'],False,8,1,0,767.6,select,"Only 14 months reception experience vs 2-year ask, but high call volume and 65 WPM typing are strong. Client agreed to interview given temp-to-perm pipeline.",admin,borderline,labeled,"Recruiter: Ashley, I'm screening for a law firm receptionist temp-to-perm. Reception experience?
+Candidate: About fourteen months at Clearview Dental — sixty calls a day on a four-line system, scheduling, insurance checks. Before that part-time library desk.
+Recruiter: JD asks two years. Concern?
+Candidate: The dental office was high volume and professional. I type sixty-five WPM and I'm comfortable in Word and Excel for reports.
+Recruiter: Client is strict on phone manner. Comfortable with atto",
+ad-008,select,95,"The candidate, Lisa Park, has a strong background in high-volume data entry with 5 years of experience, exceeding the required 2 years. Her typing speed and accuracy meet the job requirements, and she has experience with Excel, including building macros. Her previous temp-to-perm conversion with the same staffing agency and similar work experience also suggest a good fit.",[],False,1,1,0,765.3,select,"Exceeds data entry benchmarks: 10,200 KPH, Excel macros for QA, and prior temp-to-perm conversion through Apex.",admin,clear,asr_paragraph,recruiter lisa this is apex staffing about the benefits data entry role you applied for tell me your volume and accuracy candidate five years at national benefits admin ten thousand two hundred kph ninety nine point four percent accuracy i built excel macros for duplicate checks recruiter you did a temp to perm with us before candidate yes in twenty twenty converted after ninety days recruiter this is similar hybrid three days on site temp ninety days candidate i know the workflow i can start ne,
+ad-009,select,80,"Thomas Greene's experience as an Office Coordinator for 4 years, proficiency in SharePoint, and typing speed of 68 WPM align well with the job requirements. His background in managing conference rooms, ordering supplies, and light AP tasks also matches the duties listed in the job description. Additionally, his previous role involved similar responsibilities, including reception and facilities coordination.",[],False,7,1,0,552.6,select,"Office coordinator with SharePoint, facilities, and AP backup. 68 WPM and confirmed on-site temp-to-perm availability.",admin,clear,asr_noisy,"Thomas um Kelly Services office coordinator temp to perm Cambridge
+
+what systems have you used for scheduling and supply ordering
+
+Microsoft office sharepoint ordered supplies for forty person office managed conference rooms
+
+any experience with vendor invoices or A P
+
+light A P coding not full accounts payable
+
+client wants someone who can cover reception and coordinate facilities
+
+that's exactly what I did at my last job",
+ad-010,select,90,"The candidate has 6 years of experience in AP/AR, meeting the requirement of 3+ years. She is also proficient in QuickBooks and Excel pivot tables, and her typing speed of 62 WPM exceeds the requirement. Additionally, her experience with collection calls and phone follow-up aligns with the job requirements.",[],False,6,1,0,784.1,select,"Strong AR/AP hybrid: collections experience, QuickBooks, 62 WPM, and clean attendance. Matches manufacturer client needs.",admin,clear,labeled,"Recruiter: Patricia, Apex Staffing — AP/AR temp-to-perm in Nashua. Walk me through AR and AP.
+Candidate: Six years at Northline — primary AR aging, collection calls, cash application in Excel pivots. AP backup, hundred invoices a week in QuickBooks.
+Recruiter: Typing and phone work on collections?
+Candidate: Sixty-two WPM. I'm professional on collection calls — firm but respectful. Multi-line phone at the office.
+Recruiter: Ninety-day temp, on-site. Start?
+Candidate: I can start in one week. Loo",
+ad-011,reject,90,"The candidate lacks the required experience in executive support, has a significantly lower typing speed than required, and lacks experience with multi-line phones and advanced Outlook calendaring. The candidate's background is also in a small retail office, which may not translate to the fast-paced environment of a private equity firm.","['lack of executive support experience', 'insufficient typing speed', 'inadequate phone experience']",False,1,1,0,752.2,reject,Executive assistant applicant lacks calendar management depth and advanced Excel. 45 WPM typing is well below 65 WPM requirement. No multi-line phone experience.,admin,clear,asr_paragraph,recruiter gregory kelly services screening executive assistant temp to perm tell me about supporting executives candidate i was admin assistant at a small retail office for a year filed papers typed letters in word single phone line recruiter calendar management travel excel candidate not really travel was handled by the owner i did basic filing recruiter typing speed candidate forty five wpm recruiter role needs sixty five plus and multi line experience candidate i could learn recruiter client ,
+ad-012,reject,80,"The candidate lacks direct experience as a receptionist in an office setting and has no experience with a multi-line phone system, despite claiming two years of experience. Additionally, her typing speed is below the required 60 WPM. However, she expressed willingness to work for the offered pay and seemed to understand the dress code and attendance expectations.","['lack of relevant experience', 'insufficient typing speed']",False,6,1,0,603.6,reject,Receptionist candidate has no multi-line phone experience and 48 WPM typing fails 60 WPM minimum. Schedule conflict: can only work afternoons.,admin,clear,asr_noisy,"Samantha Apex receptionist temp to perm. Office experience?
+
+two years front desk multi line phone system twelve lines greet visitors mail routing
+
+professional appearance and attendance important
+
+business casual every day no attendance issues at last job
+
+pay is eighteen an hour temp to perm after ninety days
+
+that works for me",
+ad-013,reject,90,"The candidate does not meet the required typing speed of 8,500 KPH, with a current speed of 6,200 KPH, and also lacks experience with Excel formulas. The interviewer explicitly stated that they need someone who already meets the benchmark, indicating that the candidate's current skills are not sufficient.","['insufficient typing speed', 'lack of Excel skills']",False,7,1,0,536.0,reject,"Data entry applicant's 6,200 KPH is far below 8,500 KPH requirement. Accuracy issues cited at last role (96.2%). No Excel beyond basic entry.",admin,clear,labeled,"Recruiter: Brian, screening for data entry temp-to-perm. Volume and accuracy?
+Candidate: Eight months through QuickTemp. About 6,200 KPH. Accuracy was 96.2% on my last audit — they said I needed to improve.
+Recruiter: Excel?
+Candidate: Basic typing into cells. I don't know formulas.
+Recruiter: This client requires 8,500 KPH and 99% accuracy day one.
+Candidate: I could try to get faster.
+Recruiter: We need someone who already meets the benchmark. I'll keep your profile for lighter-volume roles.",
+ad-014,reject,90,"The candidate's history of short assignments and attendance issues, including a warning at their last role, raises concerns about their stability and reliability, which is a key requirement for this temp-to-perm position. The recruiter's concern about the pattern and attendance also suggests that the candidate may not be a strong fit for this role. The candidate's skills and typing speed meet the requirements, but the attendance issues outweigh these positives.","['attendance issues', 'job hopping']",False,1,1,0,557.5,reject,Office coordinator has relevant title but frequent job changes (4 roles in 3 years) and attendance write-ups at last assignment. Client requires stable tenure for temp-to-perm conversion.,admin,borderline,asr_paragraph,recruiter nicole apex staffing office coordinator temp to perm you have several short assignments why candidate offices downsized or contract ended last one i had an attendance warning three tardies in six weeks recruiter this client converts temps who show stability ninety days solid attendance candidate i understand i had car trouble recruiter skills wise office and typing candidate sixty four wpm excel outlook four line phone backup at the last site recruiter i am concerned about the pattern ,
+ad-015,reject,80,"The candidate's resume does not match the job requirements, as it lacks AP experience and mentions a different role. However, the interview transcript suggests the candidate has relevant AP experience, including three-way match and QuickBooks, which contradicts the resume. The candidate's typing speed is also below the required 55 WPM.","['resume and transcript discrepancy', 'typing speed below requirement']",True,6,1,0,718.8,reject,"AP clerk has only retail cash-handling, no QuickBooks or invoice processing. Cannot describe three-way match. Not qualified for AP temp-to-perm.",admin,clear,asr_noisy,"Derek Kelly A P clerk temp to perm. A P background?
+
+I was A P specialist two years invoice matching three way match quickbooks
+
+volume and accuracy
+
+about two hundred invoices weekly ninety nine point five percent match rate
+
+hybrid one day remote after training
+
+that's fine I prefer mostly on site anyway",
+ad-016,reject,100,"The candidate lacks the required in-office experience and specific skills such as PowerPoint and board materials preparation. Additionally, the candidate's preference for remote work and inability to commute daily directly conflicts with the job's on-site requirement.","['inadequate experience', 'skill mismatch', 'location inflexibility']",False,7,1,0,610.6,reject,EA applicant requires fully remote work; client mandates on-site 5 days for temp-to-perm. Also lacks PowerPoint and board-meeting support experience.,admin,clear,labeled,"Recruiter: Helen, Apex Staffing — executive assistant temp-to-perm in Boston. Your EA experience?
+Candidate: I've been a freelance virtual assistant two years — email, scheduling, social posts. All remote.
+Recruiter: In-office support? Board decks, PowerPoint, greeting visitors?
+Candidate: I haven't done board meetings or PowerPoint. I prefer remote only.
+Recruiter: This client is five days on-site with conversion after ninety days.
+Candidate: I can't commute daily. Remote is a must for me.
+Recr",
+ad-017,reject,90,"The candidate has a history of NCNS (no call, no show) incidents, which directly contradicts the client's requirement of impeccable attendance for temp-to-perm conversion. The candidate's explanation for the incidents, while understandable, does not alleviate the risk of coverage gaps. The recruiter's statement that they cannot submit the candidate due to this history further supports the predicted decision.","['NCNS history', 'attendance concerns']",False,1,1,0,646.2,reject,Receptionist meets typing (61 WPM) but has two no-call no-shows in last role. Law firm client has zero tolerance for attendance risk on temp-to-perm front desk.,admin,borderline,asr_paragraph,recruiter rachel kelly services law firm receptionist temp to perm experience candidate two years westside insurance six line phone outlook sixty one wpm recruiter why did you leave candidate there were two no call no shows in my last month family emergency and a miscommunication recruiter client converts only temps with perfect attendance ninety days candidate i am reliable now recruiter law firm front desk cannot risk coverage gaps i cannot submit given the ncns history,
+ad-018,select,80,"Amanda meets the data entry requirements with 3 years of experience, 9,800 KPH, and Excel skills. She also has HIPAA exposure and is willing to comply with the on-site phone policy. However, her lack of on-site office experience is a minor concern.",['no on-site office experience'],False,6,1,0,586.8,reject,Data entry candidate refuses on-site days required for temp-to-perm. WPM and KPH meet standards but hybrid policy is non-negotiable for client.,admin,clear,asr_noisy,"Amanda Apex data entry temp to perm. Your stats?
+
+Ninety two W P M ninety seven percent accuracy alpha numeric medical forms
+
+any hippa exposure
+
+yes at the clinic I signed hippa acknowledgment handled patient intake forms
+
+strict on site no phones on floor
+
+understood I can comply",
+ad-019,reject,95,"The candidate lacks the required corporate office coordinator experience, has no experience with SharePoint or vendor management, and does not meet the typing speed requirement of 60+ WPM. The interviewer explicitly stated they would pass on the submission due to these shortcomings.","['lack of corporate experience', 'insufficient technical skills', 'typing speed below requirement']",False,7,1,0,545.7,reject,Office coordinator lacks SharePoint and Excel budget tracking required by client. Only word processing experience from home office setup.,admin,clear,labeled,"Recruiter: Janet, screening office coordinator temp-to-perm. Corporate coordinator background?
+Candidate: I ran a home office for a year — Word documents, organizing files, printing labels.
+Recruiter: SharePoint, vendor management, Excel budgets?
+Candidate: I haven't used SharePoint or managed vendors. Basic Word only.
+Recruiter: Typing?
+Candidate: Fifty-five WPM.
+Recruiter: We need corporate floor experience and sixty-plus WPM. I'll pass on this submission.",
+ad-020,reject,95,"The candidate lacks the required 2+ years of AP experience, having mostly worked in AR and processed customer payments instead of vendor bills. The candidate also acknowledged the difference and suggested looking at AR openings instead, indicating a self-awareness of not meeting the AP requirements.","['insufficient AP experience', 'candidate self-identified as not meeting requirements']",False,5,1,0,641.1,reject,AP clerk has QuickBooks exposure but only 11 months AP and 52 WPM. Borderline skills; rejected because client requires 2+ years AP for temp-to-perm conversion and candidate cannot start for six weeks.,admin,borderline,asr_noisy,"Victor Kelly A P temp to perm. How much A P experience?
+
+mostly A R at my last job I applied thinking it's close
+
+this client needs two years live A P not receivables
+
+I processed customer payments not vendor bills
+
+can't submit as A P clerk I'd look at A R openings instead",
+cc-001,select,95,"Daniela has 3 years of relevant experience in an inbound call center for a utility company, meeting the job requirements. Her AHT and QA scores are impressive and align with the job's expectations. She also has experience with Salesforce and is open to rotating weekends, which is a requirement for the position.",[],False,6,1,0,721.5,select,"Three years inbound utilities support, Salesforce daily use, QA 90%+, confirmed rotating weekend availability and on-site training start date.",call_center,clear,labeled,"Recruiter: Hi Daniela, this is Sarah with Apex Staffing. I'm screening for an inbound utilities customer service role. Can you walk me through your call center background?
+Candidate: Sure. I've been at CenterPoint Energy for almost three years on inbound billing and outage lines. We use Salesforce for every call — cases, notes, disposition codes.
+Recruiter: What are your handle time and QA numbers?
+Candidate: My AHT runs about four forty-five. QA has been between ninety-one and ninety-four the l",
+cc-002,select,90,"Marcus Webb has over 1 year of collections call center experience, is familiar with FDCPA and compliant call scripting, and has experience with outbound dialer and Salesforce collections module. His QA scores are also above the minimum requirement of 85%. Additionally, he is available to work Saturdays, which is a mandatory requirement for the job.",[],False,5,1,0,568.6,select,"Two years third-party collections with FDCPA training, stable QA above 88%, comfortable with dialer workflows and Saturday rotation.",call_center,clear,asr_paragraph,"Thanks for taking my call Marcus this is Apex Staffing screening for a collections role with a third party agency.
+
+I've been at Nationwide Credit Services about two years outbound and inbound on medical and utility debt. We do FDCPA training every year and I follow the mini-Miranda script every call.
+
+What kind of QA are you running? Usually eighty-eight to ninety-one percent on my scorecards. I'm on Experian dialer and we log everything in Salesforce collections.
+
+Saturdays are required two pe",
+cc-003,select,90,"Aisha has relevant experience in Tier 1 technical support for an internet service provider, meeting the key requirements of the job description, including phone-based support, troubleshooting, and familiarity with CRM and ticketing systems. Her performance metrics, such as AHT and QA scores, also align with or exceed the job's targets.",[],False,5,1,0,544.1,select,"Eighteen months tier 1 tech support with Zendesk and Salesforce, AHT under target, confirmed rotating schedule and headset/WFH setup after training.",call_center,clear,asr_noisy,"um hi this is Sarah from Apex Staffing calling about the tier one tech support opening you applied for
+
+yeah I've been at TP about eighteen months on tier one ISP support modems routers Wi-Fi stuff we use Zendesk for tickets and Salesforce for customer history
+
+what's your average handle time uh around seven twenty team target is eight minutes QA I'm usually like eighty nine percent first call resolution high seventies
+
+schedule is rotating evenings and every third weekend that's fine I did swin",
+cc-004,select,95,"The candidate, Robert Kim, has 4 years of experience in Tier 2 broadband support at AT&T, meeting the job's requirements. His experience with Salesforce, escalation documentation, and root-cause analysis aligns with the job description. Additionally, his metrics, such as AHT and QA, exceed the job's targets. He also has mentoring experience and relevant certifications, including CompTIA Network+.",[],False,6,1,0,583.7,select,"Four years tier 2 escalation experience, strong Salesforce case ownership, meets weekend rotation and can mentor tier 1 agents during ramp.",call_center,clear,labeled,"Sarah: Robert, thanks for picking up. This is tier two broadband support for our telecom client. Tell me about your escalation experience.
+Candidate: Four years at AT&T tier two — provisioning failures, outage triage, CPE swaps. I own cases end to end in Salesforce until resolution.
+Sarah: Metrics and schedule?
+Candidate: AHT around eleven thirty, QA ninety-three percent last twelve months. I'm on weekend rotation every third week already — no issue continuing that.
+Sarah: Any mentoring?
+Candida",
+cc-005,select,90,"James has over 2 years of call center experience, is familiar with CRM (specifically Salesforce), and has a history of meeting AHT and QA targets. He also expressed comfort with the inbound support-only role and has a suitable arrangement for the rotating weekends schedule.",[],False,5,1,0,509.5,select,"Two years inbound utilities campaign, no sales baggage, CRM experience, partner covers opposite weekends for childcare — schedule fit confirmed.",call_center,clear,asr_paragraph,"Hi James this is Apex Staffing screening for an inbound utilities customer service campaign.
+
+I did two years at Comcast handling billing and tech support tiers one and two. AHT around six ten QA usually eighty-eight to ninety-two.
+
+This campaign is inbound only no sales. Comfortable with that? Yes I prefer support over hard sales honestly.
+
+Schedule is rotating weekends. OK? I have childcare covered every other weekend my partner works opposite weekends so we're good.
+
+CRM experience? Salesforc",
+cc-006,select,90,"Nicole has over 2 years of phone customer service experience, including prior WFH call center experience, and has worked with Salesforce, meeting key job requirements. Her QA scores and AHT from previous roles are also strong, exceeding the job's minimum QA requirement and closely matching the AHT target. Additionally, she has a suitable home office setup and can accommodate the rotating weekends schedule.",[],False,8,1,0,549.5,select,"Prior WFH call center role with documented QA, secure home office passes client checklist, available for two-week on-site training then remote.",call_center,clear,asr_noisy,"hi Nicole Sarah with Apex Staffing about the work from home customer service role
+
+hi yes I saw it's inbound only no sales that's what I want
+
+tell me about your call center background
+
+two years at a utilities campaign inbound billing and outage tickets Salesforce for notes QA usually ninety one percent
+
+rotating weekends required
+
+my partner works opposite weekends so we're covered for childcare
+
+home office setup
+
+dedicated room wired internet quiet during shifts headset already",
+cc-007,select,85,"Elena meets the key requirements, including 1+ years of call center customer service experience, bilingual Spanish skills, and Salesforce experience. Her QA scores, although dipping during the CRM migration, recovered to 88% by Q4, and her customer satisfaction ratings remained high. She also expressed flexibility with the weekend rotation schedule.",['QA score dip during CRM migration'],False,6,1,0,493.9,select,QA dipped to 82% last quarter after system migration but strong de-escalation references and bilingual skills; recruiter advancing for client interview given utilities Spanish call volume.,call_center,borderline,labeled,"Recruiter: Elena, I'm Sarah with Apex. This utilities client wants bilingual CSRs. Walk me through your background.
+Candidate: Two years at City Public Utilities billing and payment plans in English and Spanish. Salesforce every call.
+Recruiter: QA scores?
+Candidate: Honestly they dipped to eighty-two during our CRM migration last summer but I finished Q4 at eighty-eight. Surveys stayed at four six out of five.
+Recruiter: Weekend rotation one in four weeks.
+Candidate: That works — my mother watc",
+cc-008,select,80,"Tyrone has relevant experience in a call center environment with exposure to soft collections, and he has completed FDCPA awareness training. He also expressed willingness to transition to outbound dialer work and is open to Saturday rotations. His QA score of 86% meets the minimum requirement.","['limited direct collections experience', 'no prior experience with a formal dialer']",False,5,1,0,568.8,select,"Only eleven months formal collections but six months high-volume inbound billing at utility company; FDCPA course completed, coachable tone — client agreed to consider for junior collector track.",call_center,borderline,asr_paragraph,"Tyrone thanks for calling back this is Apex Staffing on the junior collections opening.
+
+I don't have a full year at a collections agency yet. I've been eleven months at Regional Water Authority on inbound billing and shutoff prevention calls payment arrangements that kind of soft collections.
+
+FDCPA training? I completed a Coursera FDCPA compliance course and we follow scripts at the water authority for past due accounts.
+
+This role moves to outbound dialer after ninety days. I'm open to that I",
+cc-009,select,90,"The candidate has relevant experience in tier 1 technical support, meeting key performance metrics such as AHT and QA targets, and is comfortable with the inbound-only, no-upsell nature of the campaign. The candidate's experience with Salesforce and their availability for rotating weekends align with the job requirements.",[],False,8,1,0,459.5,select,"Tier 1 ISP support with AHT and QA above target, Salesforce daily, clean attendance — straightforward fit for campaign start.",call_center,clear,asr_noisy,"Christopher hi this is Sarah Apex Staffing tier one tech support screening
+
+two years tier one at a cable company modems and account verification
+
+AHT and QA
+
+around six ten AHT QA eighty eight to ninety two percent
+
+this campaign is inbound only no upsell comfortable
+
+yes I prefer support over hard sales honestly
+
+rotating weekends including every other Saturday
+
+I can do that no conflicts",
+cc-010,select,95,"The candidate, Angela Brooks, has over 5 years of experience in utilities inbound customer service, meeting the job's requirement of 2+ years of experience. She also has experience with Salesforce, which is required for the position, and her AHT and QA metrics exceed the job's requirements. Additionally, she has prior experience working from home and is available to start training on April 7th.",[],False,6,1,0,479.9,select,"Utilities inbound veteran with Salesforce, meets AHT/QA bars, confirmed WFH setup post six-week training and rotating Sat schedule.",call_center,clear,labeled,"Sarah: Angela, Apex Staffing calling about the Duke-area utilities campaign — WFH after training.
+Candidate: I've been five years at Duke Energy inbound — high bills, extensions, transfers. Salesforce is my daily tool.
+Sarah: Numbers?
+Candidate: AHT five twenty, QA ninety-two to ninety-five. I helped train new hires on disposition codes last year.
+Sarah: Six weeks on-site in Raleigh then remote with rotating Saturdays.
+Candidate: I did their storm overflow WFH pilot — home office already certifi",
+cc-011,reject,90,"The candidate lacks the required 2+ years of call center experience and has no CRM experience, specifically with Salesforce. Although the candidate is willing to learn and work rotating weekends, the lack of direct experience in a call center environment is a significant gap. The candidate's background in food service and retail does not substitute for the required call center experience.","['no call center experience', 'no CRM experience']",False,5,1,0,511.5,reject,No call center experience — only fast food and retail floor work; cannot meet 2+ years inbound requirement or CRM familiarity.,call_center,clear,asr_paragraph,"Hi Brandon this is Apex Staffing about the inbound utilities customer service role you applied for.
+
+I've mostly worked fast food and stocking at Walmart. Chick-fil-A drive-thru I wore a headset but it's not the same as a call queue.
+
+Any formal call center or CRM? Not really. I've never used Salesforce. I type okay maybe forty words a minute.
+
+The client needs two plus years inbound call center. I don't have that but I'm a fast learner and people say I'm friendly.
+
+Rotating weekends? I could do",
+cc-012,reject,95,"The candidate lacks the required 1+ years of collections call center experience, FDCPA compliance training, and outbound dialer experience. The candidate's background is in retail customer service, which does not qualify according to the job description.","['no collections experience', 'no FDCPA training']",False,7,1,0,400.5,reject,"Inbound retail order status only — no collections, FDCPA, or dialer experience; cannot place on regulated collections floor day one.",call_center,clear,asr_noisy,"Kayla hi Sarah Apex Staffing collections agent screening
+
+I've been at Zappos two years but that's retail customer service not collections
+
+any FDCPA or outbound collections experience
+
+no I haven't done collections calls or payment arrangements on past due accounts
+
+this client requires six months plus collections experience FDCPA trained
+
+I could learn the regulations fast though
+
+they won't train from zero on collections I'll pass for now",
+cc-013,reject,90,"The candidate lacks the required 3+ years of tier 2 phone support experience and has no experience with Salesforce or a ticketing system, which are key requirements for the job. The candidate's experience is in retail sales, which does not substitute for tier 2 phone support as per the job description.","['lack of relevant experience', 'no Salesforce experience']",False,6,1,0,519.0,reject,"Retail mobile sales only — no tier 2 escalation, no Salesforce case ownership, failed to describe troubleshooting beyond reboot; does not meet tier 2 bar.",call_center,clear,labeled,"Recruiter: Devon, Sarah with Apex Staffing — tier two telecom support. What's your phone support background?
+Candidate: I've been T-Mobile retail three years. I troubleshoot phones in the store sometimes — restart, check settings.
+Recruiter: Tier two escalations on a phone queue? Salesforce cases?
+Candidate: No it's all walk-in. We don't use Salesforce. I haven't worked a call queue with handle time targets.
+Recruiter: This role needs three years tier two phone support with case ownership.
+Candi",
+cc-014,reject,95,"The candidate has the required experience and skills, including 3 years of call center experience and Salesforce proficiency, but has a schedule constraint that directly conflicts with the job's non-negotiable requirement of rotating weekends, including Saturdays. The candidate explicitly states that they cannot work Saturdays due to religious observance, which aligns with the job's dealbreaker condition.","['schedule constraint', 'religious accommodation']",False,5,1,0,638.1,reject,Strong metrics but cannot work Saturdays due to religious observance with no alternate coverage — hard schedule requirement for utilities campaign.,call_center,clear,asr_paragraph,"Hannah thanks for speaking with Apex Staffing about the utilities inbound campaign.
+
+I have three years Verizon inbound wireless support. AHT six minutes QA ninety-three percent Salesforce every day.
+
+This role is Tuesday through Saturday rotating including Saturdays every other week. Any issue?
+
+I observe Shabbat so I cannot work Fridays after sundown or Saturdays at all. I could do Sunday through Thursday if they had that.
+
+Unfortunately the client schedule is fixed rotating Saturdays no alter",
+cc-015,reject,80,"The candidate lacks a private home office with a door and dedicated internet, which are requirements for the job. Although they expressed willingness to wait until they can pass the audit setup, their current home situation with shared Wi-Fi and a studio apartment with roommates poses a significant challenge in meeting the job's requirements.","['inadequate home office setup', 'shared Wi-Fi']",False,7,1,0,672.9,reject,WFH role requires private quiet workspace — candidate shares studio apartment with roommates and unreliable Wi-Fi; fails client home office audit criteria.,call_center,clear,asr_noisy,"Jordan hi Sarah Apex Staffing work from home customer service role
+
+I did about six months remote at my last job
+
+equipment audit requires hardwired ethernet separate workspace no background noise
+
+I was on Wi-Fi in the kitchen sometimes kids home
+
+client failed last candidate on audit for that reason
+
+I don't have a dedicated room right now honestly
+
+I'd wait until you can pass the audit setup",
+cc-016,reject,80,"The candidate lacks the required 2+ years of call center experience, with only three months of experience in a utilities campaign. Although she has some familiarity with Salesforce, her short tenure and lack of direct call center experience prior to the gap make her a less competitive candidate. Her QA score of 84% is also just below the minimum requirement of 85%.","['insufficient experience', 'short tenure']",False,6,1,0,577.6,reject,Only three months call center tenure after long employment gap — below 2-year minimum; good attitude but client will not waive experience bar for utilities queue.,call_center,borderline,labeled,"Recruiter: Maria, Apex Staffing — utilities inbound role. Tell me about your call center time.
+Candidate: I was at Convergys three months on a utilities campaign before I had to relocate for family. QA was eighty-four.
+Recruiter: Anything before that gap?
+Candidate: I cared for my dad from 2020 to 2024. Before that I did hotel front desk but not phone queues.
+Recruiter: Client requires two full years call center. We're at three months.
+Candidate: I know it's short but the training stuck — I reme",
+cc-017,reject,80,"The candidate has relevant experience in collections and a good QA score, but his attendance history is a concern, with two write-ups for tardiness in the past year. Additionally, his response to handling debtors who push back raises concerns about his ability to maintain a professional tone, as required by the FDCPA compliance.","['attendance history', 'professional tone']",False,5,1,0,571.4,reject,Collections background present but two attendance write-ups and recruiter concern about adversarial tone when describing debtor interactions — client rejected for compliance risk.,call_center,borderline,asr_paragraph,"Derek this is Apex Staffing following up on the collections opening.
+
+I've got about two years at Midland Credit outbound medical collections Experian dialer Salesforce. QA eighty-six RPC was strong.
+
+Attendance history? I had two write-ups last year for being late mornings are rough with my kid's school drop-off.
+
+How do you handle debtors who push back? look if they owe they owe I don't sugarcoat it I tell them what happens if they don't pay.
+
+The agency needs compliant professional tone and s",
+cc-018,reject,90,"The candidate's current QA score of 79% is below the client's minimum requirement of 85%, and their AHT is significantly higher than the target. Although the candidate acknowledges their weaknesses and shows potential for improvement, their current performance does not meet the client's metrics.","['QA score below requirement', 'AHT significantly higher than target']",False,7,1,0,507.6,reject,QA below 75% three consecutive months and AHT double team target on tier 1 role — metrics disqualify despite tenure.,call_center,clear,asr_noisy,"Ryan Apex Staffing tier one tech support screening
+
+I've been Frontier tier one about eight months
+
+QA and AHT
+
+QA runs around seventy nine percent team minimum is eighty five
+
+what happened
+
+I was new and had long calls on provisioning issues getting better but not there yet
+
+client minimum is eighty five QA for ninety days I can't submit this profile",
+cc-019,reject,100,"The candidate, Kevin Hartley, had a failed drug screen within the last 12 months, which is an automatic disqualification per the client's contract mandate. He also lacks completed call center tenure, failing to meet the 2+ years of call center experience required by the job description.","['Failed drug screen within 12 months', 'Lack of call center experience']",False,6,1,0,551.2,reject,Disclosed failed pre-employment drug screen at prior BPO within last 12 months — client requires clean screen for utilities contract; cannot submit.,call_center,clear,labeled,"Sarah: Kevin, Apex Staffing — utilities inbound screening. What's your call center experience?
+Candidate: I was hired at Teleperformance last year for a utilities campaign but didn't finish onboarding.
+Sarah: What happened?
+Candidate: I failed the drug screen. It was marijuana — legal in my state but they still pulled the offer.
+Sarah: This client runs the same panel. Any call center time after that?
+Candidate: No just Starbucks since. I'd pass now but I get you can't send me if it's within twel",
+cc-020,reject,95,"The candidate, Samantha Reed, has the required experience in tier 1 phone support and meets the performance metrics, but she is unable to attend the six-week mandatory on-site training in Atlanta due to being a sole caregiver and financial constraints. The client has also stated that there is no flexibility or waiver for virtual training.","['inability to attend training', 'caregiving responsibilities']",False,6,1,0,666.0,reject,Strong tier 1 metrics but cannot attend mandatory six-week on-site training in another state — WFH role still requires training residency; no remote training waiver available.,call_center,borderline,asr_paragraph,"Samantha Apex Staffing about the tier one work from home role after training.
+
+Three years Cox tier one support AHT seven ten QA ninety percent Salesforce daily.
+
+Training is six weeks on site in Atlanta no virtual option. Can you do that?
+
+I'm sole caregiver for my mom in Portland after her surgery. I can't leave for six weeks and I can't afford Atlanta housing on top of that.
+
+Any flexibility? Could I do partial remote training? Client said no waiver last time we asked.
+
+Then I guess I'm out e",
+hc-001,select,95,"Danielle has 3+ years of experience in a medical front desk role at an orthopedic clinic, with direct experience using Epic Cadence and Prelude, and has verified insurance eligibility, which aligns with the job requirements. Her current HIPAA training and lack of attendance or HIPAA issues also support her candidacy.",[],False,8,1,0,558.8,select,"Three years orthopedic front desk with Epic Cadence and Prelude. Confirms hybrid schedule, insurance verification experience, and clean attendance.",healthcare,clear,labeled,"Recruiter: Hi Danielle, this is Megan from Apex Staffing. I'm screening for a medical front desk role at an orthopedic clinic. Can you walk me through your recent experience?
+Candidate: Sure. I've been at Summit Orthopedics for three years on the front desk. I use Epic Cadence and Prelude every day — scheduling, registration, copays, the whole check-in flow.
+Recruiter: How comfortable are you with insurance verification?
+Candidate: Very. I verify eligibility in Availity and payer portals before ",
+hc-002,select,95,"Rosa's experience as a Patient Coordinator at Lakeside Primary Care aligns with the job requirements, including managing referrals, tracking prior authorizations, and using Athena EMR. Her bilingual skills and strong phone skills are also a plus. She demonstrated a clear understanding of the patient coordination process and how to handle denied referrals.",[],False,8,1,0,568.0,select,Strong patient coordinator background with Athena and referral workflows. Confirmed on-site availability and experience closing care gaps.,healthcare,clear,asr_paragraph,"Thanks for taking my call Rosa. This patient coordinator role is at a multi-specialty clinic using Athena. What's your background?
+
+I've been patient coordinator at Lakeside Primary Care for two years. I handle referrals to cardiology and ortho, track prior auths, and close care gaps — annual wellness, mammography reminders, that kind of outreach.
+
+Are you on Athena day to day?
+
+Yes, scheduling, messaging, referral queues — all in Athena. I also did Epic at my previous clinic but Athena is my ma",
+hc-003,select,90,"Terrence has an active state CNA certification, over a year of relevant experience in long-term care, and a current BLS certification, meeting all the job requirements. His experience with ADL support, vitals, and charting in PointClickCare aligns with the job responsibilities. Additionally, his record of zero safety incidents and being named employee of the quarter demonstrates his competence and reliability.",[],False,8,1,0,619.4,select,"Active CNA certification, two years LTC experience, BLS current. Day shift matches client need; willing to float units.",healthcare,clear,labeled,"Sarah: Hi Terrence, thanks for applying to the CNA role. Tell me about your certification status.
+Candidate: My Minnesota CNA is active through 2026. BLS is current — renewed last fall through AHA.
+Sarah: Where have you been working?
+Candidate: Sunrise Senior Living for two years. I run a hall of twelve to fourteen residents, ADLs, vitals, glucose checks. I chart in PointClickCare.
+Sarah: This is day shift, six to two, and you may float to memory care.
+Candidate: That's fine. I've floated before",
+hc-004,select,90,"Kim Nguyen has an active CPT-1 certification, 2+ years of outpatient phlebotomy experience, and experience with Epic Beaker, which aligns with the job requirements. She also demonstrated a strong understanding of patient identification protocols and a good track record with minimal errors.",[],False,8,1,0,540.6,select,CPT-1 certified with outpatient draw volume. Confirmed on-site availability and experience with difficult sticks and Epic Beaker orders.,healthcare,clear,asr_noisy,"so Kim this is for an outpatient lab role um walk me through your certification
+
+yeah I've got active CPT one through the state board renewed um last year I've been at Quest three years doing forty to fifty five sticks a day
+
+are you on epic baker or another LIS
+
+baker mostly at Quest I verify orders print labels two identifier check before every draw per hippa protocol
+
+schedule is on site mornings including Saturday rotation okay
+
+yes I'm good with that I did Saturday rotation at Quest already",
+hc-005,reject,60,"Ashley Tran has less than the required 2+ years of medical billing experience, with only 8 months of experience in billing, despite having a strong foundation in Epic Resolute and handling professional claims daily. Her experience as a Medical Records Clerk is relevant, but may not fully compensate for the lack of billing experience. She does have a scheduled CPC exam and a reference letter from her billing supervisor, which are positives.","['inadequate experience', 'limited billing history']",True,8,1,0,767.1,select,Only eight months dedicated billing but strong Epic Resolute exposure and accurate coding on 837 claims. Recruiter advanced due to cert progress and manager reference.,healthcare,borderline,asr_paragraph,"Ashley, this billing role wants two plus years. Your resume shows about eight months in billing — can you clarify?
+
+Right. I was records clerk for a year at Northview, then moved to billing last August. So eight months billing, but I've been in Epic Resolute the whole time and I'm submitting professional claims daily.
+
+What payers do you work?
+
+Mostly commercial — Blue Cross, Aetna, United — plus Medicare. I work denials for timely filing and coding edits. I'm testing for CPC in June.
+
+This is h",
+hc-006,select,90,"The candidate has relevant experience as a Clinic Administrator with a strong background in day-to-day clinic operations, Epic admin workflows, and supervisory experience. The candidate's experience in managing a team, handling HIPAA compliance, and working with IT on workflow fixes aligns well with the job requirements. The candidate also expressed comfort with the hybrid work arrangement.",[],False,8,1,0,633.9,select,"Four years clinic admin with staff scheduling, supply ordering, and Epic admin workflows. Strong fit for hybrid clinic operations lead.",healthcare,clear,labeled,"Recruiter: Gregory, I'm calling about the clinic administrator opening. What's your management background?
+Candidate: I ran Westside Family Medicine for four years — eight staff between front desk and MAs. Scheduling, payroll input, supply ordering, the daily ops.
+Recruiter: What systems have you supported?
+Candidate: Epic on the admin side — template builds, visit types. I'm not IT, but I work with our analyst on workflow fixes.
+Recruiter: HIPAA and compliance oversight?
+Candidate: I ran annual",
+hc-007,reject,60,"Jasmine lacks direct medical front desk experience, which is a key requirement for the job, although she has transferable skills from her dental front office experience. She has completed an Epic Fundamentals online course, but lacks hands-on experience with Epic or Athena. Her understanding of HIPAA compliance appears to be based on training from her dental office experience.","['lack of direct medical experience', 'limited Epic/Athena experience']",True,8,1,0,719.0,select,No direct clinic front desk but two years dental reception with insurance verification and scheduling. Recruiter submitted for client interview based on transferable skills and Epic training completion.,healthcare,borderline,asr_noisy,"Jasmine I'm looking at your resume — it's mostly dental not medical front desk. why should we consider you
+
+um I know it's dental but I did insurance verification every day benefit breakdowns copays scheduling recall calls it's the same customer facing workflow
+
+any epic or athena
+
+not on the job but I finished epic fundamentals online last month I'm ready to learn on site fast
+
+this pediatrics clinic is on site five days sometimes Saturday vaccine clinics
+
+I can do that I don't need hybrid I ha",
+hc-008,select,95,"Elena's experience as a Care Coordinator at Valley Health Partners aligns with the job requirements, and she has demonstrated proficiency in Epic, chronic disease management, and bilingual Spanish skills. Her answers to the interview questions show a clear understanding of the responsibilities and requirements of the Patient Coordinator role.",[],False,8,1,0,525.2,select,Chronic care management coordinator with Epic and closed-loop referral tracking. Bilingual; confirmed full-time on-site schedule.,healthcare,clear,labeled,"Sarah: Elena, tell me about your chronic care coordination experience.
+Candidate: At Valley Health I managed a CCM panel of about 120 patients. Monthly calls, med adherence, A1C and blood pressure follow-ups.
+Sarah: How do you track referrals?
+Candidate: Epic referral workqueues. I close the loop — did the patient attend cardiology, do we have notes back, reschedule if they no-showed.
+Sarah: Insurance verification for program enrollment?
+Candidate: Yes, I verify eligibility and benefits before e",
+hc-009,select,90,"Marcus has relevant experience as a CNA in a med-surg setting, with active certification and BLS. He is familiar with Epic Rover and has a track record of teamwork and calmness in high-pressure situations. His availability for the required schedule rotation is also a positive factor.",[],False,8,1,0,830.0,select,"Hospital CNA with acute care experience, active certification, and Epic patient list familiarity. Night-to-day shift change acceptable.",healthcare,clear,asr_paragraph,"Marcus, this is a med-surg CNA role at Mercy affiliate. What's your hospital experience?
+
+I've been on med-surg at Mercy General two years. Six to seven patients, vitals, I and O, ambulation after surgery. I document in Epic Rover.
+
+Certification and BLS status?
+
+Illinois CNA is active. BLS renewed in March.
+
+Schedule is days and evenings rotating, every third weekend. You're on nights now — is that a problem?
+
+I'm leaving nights for days. I can start on the day-evening rotation they need. Weeke",
+hc-010,reject,60,"The candidate lacks the required 1+ years of paid phlebotomy experience and currently performs only 15-20 draws per shift, which is below the required 30+ draws per shift capability. However, she has relevant experience as a lab assistant, CPT-1 certification, and some exposure to Epic Beaker.","['inadequate experience', 'draws per shift capability']",True,7,1,0,563.4,select,"CPT-1 certified only four months ago with limited draw volume, but clinical externship and lab assistant background. Client agreed to skills check interview.",healthcare,borderline,labeled,"Recruiter: Hannah, the role asks for one year paid phlebotomy. You're newer — walk me through that.
+Candidate: I got CPT-1 in February. I've been lab assistant for a year, and I did my externship with a hundred supervised draws. I pick up stick duty on busy mornings now.
+Candidate: I'm not at thirty independent draws a shift yet — more like fifteen to twenty — but my preceptor said I'm ready for outpatient.
+Recruiter: Epic Beaker exposure?
+Candidate: Yes, order lookup and labels at the draw stat",
+hc-011,reject,95,"The candidate lacks any relevant experience in medical billing, Epic Resolute, or healthcare, which are crucial requirements for the job. The candidate's background is in retail, and they have not demonstrated any knowledge or skills related to medical billing. Although the candidate expresses a willingness to learn, the job description explicitly requires 2+ years of professional medical billing experience, which the candidate does not possess.","['lack of relevant experience', 'no healthcare background']",False,8,1,0,756.3,reject,No medical billing or coding experience — retail cashier background only. Cannot meet Epic Resolute or claims submission requirements.,healthcare,clear,asr_noisy,"Chris thanks for applying to medical billing tell me about your billing experience
+
+uh I haven't done billing yet I was cashier at Target for two years I'm a fast learner though
+
+any epic or athena any insurance verification claims
+
+no I haven't used those systems I looked up what epic resolute is online though
+
+this role needs two years professional claims experience day one
+
+I could maybe take a course if you train me
+
+client won't train from zero on resolute sorry — anything else in healthcar",
+hc-012,reject,95,"The candidate explicitly stated that they cannot do four days on-site due to their location in Ohio and need for remote work, which is not available for this role. The candidate's strong referral background is overshadowed by their inability to meet the on-site requirement.","['location mismatch', 'inflexible scheduling']",False,7,1,0,737.4,reject,Strong coordinator background but requires fully remote. Role is on-site four days with no work-from-home option.,healthcare,clear,asr_paragraph,"Natalie, your referral background looks strong. This role is four days on-site in Charlotte. Any concerns?
+
+I actually need fully remote. I moved to care for my mom in Ohio and I'm not relocating back to North Carolina.
+
+The client removed remote after a HIPAA audit — there's no work-from-home.
+
+I can't do four days on-site from Ohio. If they add remote I'd be interested.
+
+That's not on the table. Would you consider relocating?
+
+Not right now. I need to stay here for family.
+
+Understood — I'll p",
+hc-013,reject,95,"The candidate lacks direct experience with Epic or Athena scheduling and registration, and has no experience with insurance verification and copay collection, which are key requirements for the job. The candidate's experience working in the hospital cafeteria does not translate to the front desk role. The interviewer also explicitly states that they cannot submit the candidate's profile due to the lack of relevant experience.","['lack of relevant experience', 'missing required skills']",False,7,1,0,565.5,reject,No medical front desk or EMR experience. Food service background does not meet insurance verification or Epic requirements.,healthcare,clear,asr_noisy,"Ryan this front desk role needs epic or athena experience what's yours
+
+I work in the hospital cafeteria I see the check in kiosks but I don't use epic
+
+any insurance verification scheduling phones
+
+not really I run the cash register on the tray line sometimes catering orders
+
+did you apply thinking the cafeteria qualifies as hospital experience
+
+yeah it's the same building I know the campus
+
+client needs clinic front desk with registration workflows I can't submit this profile sorry",
+hc-014,reject,95,"The candidate, Victor Lang, was terminated from his previous role for a HIPAA violation, which directly contradicts the job requirement of a clean compliance and employment record. This significant red flag, combined with the client's explicit emphasis on compliance history, makes it unlikely that a human recruiter would move this candidate forward.","['HIPAA violation', 'termination for policy violation']",False,7,1,0,651.6,reject,Terminated from prior clinic admin role for HIPAA violation — accessed celebrity patient chart without authorization. Client requires clean compliance record.,healthcare,clear,asr_paragraph,"Victor, I need to ask about your departure from Downtown Dermatology in late 2023.
+
+I was let go. I'd rather not get into it on a screening call.
+
+The client requires disclosure of any HIPAA or compliance terminations.
+
+Fine. I accessed a patient chart I wasn't assigned to. It was a high-profile patient and I was curious. HR termed me for HIPAA violation.
+
+That role oversees HIPAA training for staff. I can't present this profile.
+
+It was one mistake. I've done admin work for years.
+
+I understand",
+hc-015,reject,90,"The candidate's Ohio CNA certification is expired and would require a two-month renewal process, which does not meet the job's requirement of active certification on day one. Additionally, the candidate's BLS certification is also expired. The candidate's inability to meet these critical requirements makes them an unlikely fit for the position.","['inactive CNA certification', 'expired BLS certification']",False,7,1,0,524.4,reject,CNA certification expired six months ago with no plan to renew before start date. State requires active CNA for assignment.,healthcare,clear,asr_paragraph,"Sandra, can you confirm your CNA status for Ohio?
+
+It expired last September. I took time off for family and didn't renew yet.
+
+This client needs active CNA on day one. Can you renew before start?
+
+I'd have to retake the class — maybe two months. I don't have the cert now.
+
+What about BLS?
+
+That's expired too. I'd need to redo it.
+
+I can't submit without active CNA. Let me know when you're renewed and we can revisit.",
+hc-016,reject,95,"The candidate lacks the mandatory CPT-1 certification and expressed nervousness with needles, which is a critical aspect of the phlebotomist role. Additionally, the candidate's experience with phlebotomy is limited to only 5 supervised sticks, and they expressed that the high-volume draw requirement is not suitable for them at this time.","['lack of certification', 'limited phlebotomy experience', ""candidate's self-doubt""]",False,6,1,0,636.9,reject,Not CPT-1 certified and stated discomfort with venipuncture. Role requires certification and independent draw volume day one.,healthcare,clear,labeled,"Recruiter: Paula, this is a phlebotomy-only role. Do you hold CPT-1?
+Candidate: Not yet. I'm in medical assistant school. I only did a handful of sticks during externship.
+Recruiter: The health center needs certification and independent draw volume from day one.
+Candidate: I get nervous with needles honestly. I was hoping to room patients mostly.
+Recruiter: This isn't a medical assistant role — it's fifty plus sticks a day.
+Candidate: Yeah, that's probably not for me right now.",
+hc-017,reject,80,"The candidate lacks direct experience with professional billing, specifically with 837P claims, Epic Resolute, or Athena Collector, which are key requirements for the job. Although she has a background in health information and has taken an intro ICD-10 course, her experience is primarily in records release. The client explicitly stated that two years of live billing experience is necessary, which the candidate does not have.","['lack of direct billing experience', 'no experience with required software']",False,7,1,0,780.6,reject,"Medical records background with coding exposure but no hands-on billing or 837 submission. Client rejected — needs Resolute experience, not release-of-info.",healthcare,borderline,asr_noisy,"Diane you applied for billing your background is records release correct
+
+yes ROI mostly but I took an ICD ten intro course I know diagnosis codes on charts
+
+have you submitted professional claims in resolute or athena collector
+
+not exactly I haven't posted charges or worked denials I see codes when I pull records for attorneys
+
+client needs two years live billing um not coding literacy alone
+
+I could learn resolute fast I understand the revenue cycle conceptually
+
+they've rejected records only",
+hc-018,reject,90,"The candidate, Angela Wright, is unavailable for the required day shift due to school drop-off commitments as a single parent, and the client is firm on the day shift requirement. Angela's current work schedule and availability do not align with the job's requirements. The candidate explicitly stated that they cannot work days and would require on-site childcare to consider a shift change, which is not offered.","['availability mismatch', 'inflexible schedule']",False,6,1,0,780.2,reject,Available nights only due to childcare. Client needs day shift CNA with weekend rotation — schedule mismatch.,healthcare,clear,asr_paragraph,"Angela, this SNF role is day shift seven to three with every other weekend. What's your availability?
+
+I only work nights right now. Eleven to seven at Greenfield. I can't do days because I drop my kids at school at eight.
+
+There's no night opening on this contract. Could you switch shifts?
+
+Not unless they offer on-site childcare, which they don't. I'd need nights or maybe evenings after six.
+
+Client is firm on days. I'll keep you in mind for night openings.
+
+Please do. Days won't work for me t",
+hc-019,reject,80,"The candidate's history of attendance issues, with three write-ups in a year, raises significant concerns given the job's requirement for reliable attendance and single coverage at peak hours. Although the candidate has solid Epic and insurance verification skills, the attendance concerns outweigh these strengths. The candidate's termination for attendance in their previous role further supports this decision.","['attendance issues', 'previous termination']",False,6,1,0,510.9,reject,Epic-trained with solid skills but three attendance write-ups in twelve months. Client has zero-tolerance attendance policy for front desk coverage.,healthcare,borderline,labeled,"Recruiter: Monique, your Epic skills look good. I need to ask about the attendance write-ups and your departure.
+Candidate: I had three write-ups for tardiness. Childcare broke down twice, car trouble once. They termed me in October.
+Recruiter: This clinic has one front desk person at check-in peak. They said zero tolerance on attendance.
+Candidate: I'm in a better spot now — new daycare with backup. My skills are solid: Epic, Availity, copays.
+Recruiter: I hear you, but three write-ups in a yea",
+hc-020,reject,95,"The candidate lacks the required 3+ years of clinic or urgent care administration experience, and their background is in hotel front desk management, which does not align with the job requirements. The candidate also has no experience with Epic, eClinicalWorks, or HIPAA compliance, which are essential for the role.","['no relevant experience', 'lack of required skills']",False,7,1,0,554.8,reject,"Hotel front desk experience only — no healthcare administration, HIPAA training, or clinic operations background.",healthcare,clear,asr_noisy,"Brian tell me about your clinic administration background
+
+I haven't worked in a clinic I've been hotel front desk at Marriott four years managing guest check in and reservations
+
+any epic eclinicalworks hippa compliance staff supervision
+
+no opera is the hotel system I supervised two bell staff during rush hour not medical staff
+
+this is clinic admin for an urgent care chain three plus years required
+
+I figured hospitality transfers customer service wise
+
+client wants healthcare ops experience ",
+st-001,select,90,"Derek Holloway has 4 years of commercial HVAC service experience, which aligns with the job requirements, and holds the necessary EPA 608 Universal certification. His experience with rooftop units, VAV systems, and refrigeration circuits also matches the job responsibilities. Additionally, he has a strong safety record and is available to start within two weeks.",[],False,10,1,0,626.9,select,"Four years commercial HVAC service, current EPA 608 Universal, and strong troubleshooting examples. Confirmed swing-shift availability and clean safety record.",skilled_trades,clear,labeled,"Interviewer: Thanks for taking my call, Derek. This is a commercial HVAC service role on swing shift. Walk me through your relevant experience.
+Candidate: I've been with Comfort Systems for four years doing commercial service — rooftop units, VAV boxes, some walk-in cooler work. Before that I did residential install as an apprentice.
+Interviewer: Do you hold EPA 608? Which type?
+Candidate: Universal — renewed it this January. I handle recovery and charging on R-410A and R-22 systems regularly.
+I",
+st-002,select,90,"Maria Santos has 3 years of commercial HVAC install experience, meeting the job requirement, and possesses the necessary EPA 608 Type II certification and OSHA 10 card. Her experience with rooftop installs and ability to work at heights aligns with the job description.",[],False,10,1,0,552.6,select,"Strong EPA 608 Type II and install background on commercial RTUs. OSHA 10 current, confirmed day-shift availability and reliable transportation to job sites.",skilled_trades,clear,labeled,"Interviewer: Hi Maria, I'm screening for a commercial HVAC installer role. Tell me about your install background.
+Candidate: I've been with Trane Commercial almost three years. Mostly rooftop installs — setting curbs, rigging units, brazing lines, pulling wire for controls.
+Interviewer: EPA certification status?
+Candidate: Type II, got it in 2023, still current. I don't do much recovery on install but I'm certified for it.
+Interviewer: OSHA 10?
+Candidate: Yes, completed last year. I wear harness",
+st-003,select,90,"The candidate, Jordan Ellis, has relevant experience as an electrician helper on commercial projects, OSHA 10 certification, and the ability to read basic electrical drawings, aligning with the job requirements. The interview transcript also shows a good understanding of the role and no major concerns were raised during the conversation.",[],False,10,1,0,572.3,select,Two years electrician helper experience on commercial sites with current OSHA 10. Demonstrated conduit bending and panel work; available for required day shift.,skilled_trades,clear,labeled,"Interviewer: Jordan, thanks for applying to the electrician helper role. What's your commercial experience?
+Candidate: Two years with Miller Electric on commercial TI work — office buildings, a couple retail fit-outs. I pull wire, bend EMT, help with panel terminations.
+Interviewer: Do you have OSHA 10?
+Candidate: Yes, got it when I started in 2023. I renew my awareness training through the company yearly.
+Interviewer: Have you worked off drawings or mostly direction from the journeyman?
+Candida",
+st-004,select,90,"Andre has relevant experience as an electrical helper, including 2 years in an industrial setting, and possesses the required OSHA 30 certification. His skills align with the job requirements, and he has demonstrated flexibility with his schedule, having already worked on shutdowns. His previous employer's reason for ending his contract was due to headcount reduction, not performance issues.",[],False,10,1,0,872.6,select,OSHA 30 and three years helper experience outweigh lighter commercial exposure. Strong safety mindset and motor control experience; good fit for industrial electrical helper.,skilled_trades,borderline,labeled,"Interviewer: Andre, this helper role supports industrial shutdown work. Tell me about your background.
+Candidate: Three years total — two at Baldor on a food plant account, one year residential before that. Motor terminations, conduit, some VFD panels.
+Interviewer: OSHA level?
+Candidate: OSHA 30, finished last year. I'm strict about lockout-tagout — no shortcuts.
+Interviewer: Most of your work industrial or residential?
+Candidate: Last two years mostly industrial. Residential was smaller service",
+st-005,reject,90,"The candidate lacks the required 2+ years of commercial HVAC service experience, having only 14 months of residential experience. Additionally, the candidate does not possess the required EPA 608 Universal certification and would not have it at the start of employment. The candidate's willingness to study and test on their own is noted, but it does not meet the immediate requirements of the role.","['lack of commercial experience', 'missing EPA certification']",False,8,1,0,746.9,reject,Residential-only background with no EPA 608 certification. Role requires commercial service and current EPA Universal — mandatory day-one credential not met.,skilled_trades,clear,labeled,"Interviewer: Kevin, this is commercial HVAC service. What's your experience?
+Candidate: About fourteen months with Cool Breeze doing residential installs — changeouts, furnaces, mini-splits sometimes.
+Interviewer: Any commercial rooftops or EPA 608?
+Candidate: Not really commercial. I haven't taken the EPA test yet — my boss said he'd sponsor me when things slow down.
+Interviewer: This role requires Universal EPA before you can go on a truck. Would you have that at start?
+Candidate: Probably not",
+st-006,reject,80,"Lisa Morales lacks the required 2+ years of HVAC service experience and has an expired EPA 608 Type I certification, which does not meet the job's requirement for a current EPA 608 Type II or Universal certification. Although she expresses willingness to learn and retest for the EPA certification, her limited experience, particularly in commercial units, poses a significant gap for the role.","['insufficient experience', 'expired certification']",False,8,1,0,619.3,reject,EPA 608 expired over a year ago and only six months paid HVAC experience. Below minimum tenure and cannot legally handle refrigerant on day one.,skilled_trades,clear,asr_noisy,"hi Lisa um tell me about your H vac service background
+
+I've been with QuickCool about six months mostly residential service you know like under a senior tech
+
+E P A cert status
+
+I had type one from a class in twenty twenty two but uh I think it expired last year I haven't renewed yet
+
+this job needs current type two or universal and two years experience how do you compare
+
+I'm probably short on years I learn quick though definately willing to retest for E P A
+
+experience on commercial units
+
+no",
+st-007,reject,90,"The candidate lacks the required 1+ years of electrical helper experience on commercial jobsites and does not have the necessary OSHA 10 certification, which is a non-negotiable requirement for the position. The candidate's experience is primarily in demolition labor and warehouse work, with no relevant electrical experience.","['lack of relevant experience', 'missing OSHA 10 certification']",False,8,1,0,605.1,reject,No OSHA 10 and no prior commercial electrical site experience. Client mandates OSHA 10 before badge access; candidate cannot start on required timeline.,skilled_trades,clear,labeled,"Interviewer: Chris, what electrical helper experience do you have?
+Candidate: I haven't worked on electrical crews. Mostly demolition labor and warehouse before that.
+Interviewer: Any OSHA 10?
+Candidate: No, I was going to take it online if I got hired.
+Interviewer: The GC won't badge anyone without OSHA 10 already in hand. Timeline?
+Candidate: I could probably finish a course in a week if I pay for it.
+Interviewer: They need someone Monday. Any wire pulling or conduit at all?
+Candidate: Not on ",
+st-008,reject,90,"The candidate's availability conflicts with the job's strict day shift and Saturday requirements, and they are unable to adjust their class schedule to accommodate the job's needs. The candidate explicitly stated they need nights only and cannot start before 4 PM, which directly contradicts the job's 6 AM start time.","['scheduling conflict', 'availability issue']",False,8,1,0,582.9,reject,Helper experience is adequate but candidate is nights-only while role requires day shift with mandatory Saturday overtime during project closeout.,skilled_trades,borderline,labeled,"Interviewer: Ramon, tell me about your helper experience.
+Candidate: Eighteen months with Spark on commercial rough-in. OSHA 10, good attendance, no issues.
+Interviewer: This is strict day shift, 6 AM start, plus Saturdays for six weeks. Any conflicts?
+Candidate: I take college classes mornings until noon — I really need nights only, like 4 PM or later start.
+Interviewer: The GC won't flex. Could you adjust your class schedule?
+Candidate: Not this semester. I could do days in August when the sem",
+st-009,select,90,"Ethan meets the key requirements for the Plumber Apprentice role, including being a registered plumbing apprentice in good standing, having commercial plumbing experience, and possessing the necessary certifications such as OSHA 10. He also has the required tools and reliable transportation, and is available to start within the desired timeframe.",[],False,8,1,0,545.6,select,"Registered second-year plumbing apprentice with valid state card and relevant commercial rough-in experience. Confirmed tools, transportation, and day-shift availability.",skilled_trades,clear,labeled,"Interviewer: Ethan, this is a commercial plumber apprentice role. What's your status?
+Candidate: Second-year registered apprentice in Ohio, card's current. Two years with Summit doing commercial rough-in — copper, PVC, some cast iron.
+Interviewer: Apprentice registration number valid?
+Candidate: Yes, PL-48291, renewed in March. My hours are logged through the union book and company.
+Interviewer: OSHA 10?
+Candidate: Got it in 2023. I have my own press tool and basic hand tools.
+Interviewer: Day s",
+st-010,select,90,"The candidate, Nina Kowalski, meets the key requirements for the Plumber Apprentice position, including being a registered apprentice, having relevant commercial or industrial plumbing experience, and holding an OSHA 10 certification. Her experience with Great Lakes Pipe and ability to read basic isometrics also align with the job requirements. Additionally, she has expressed a desire to stay on the commercial-industrial path, indicating a good fit for the role.",[],False,5,1,0,526.1,select,First-year apprentice with pipefitting exposure on industrial plumbing and current registration. Meets minimum experience for apprentice-tier commercial role.,skilled_trades,clear,asr_paragraph,"Thanks for taking the call. I'm screening for an industrial plumber apprentice on the Great Lakes corridor.
+
+I'm first year registered in Wisconsin, WI-11802. I've been with Great Lakes Pipe about a year on a plant expansion — threaded black iron, grooved systems, PVC for chemical waste.
+
+Before that I was a welder helper so I'm comfortable on industrial sites. OSHA 10 done last year.
+
+I can read basic isometrics with journeyman check. I have a car and can travel within a couple hours of Milwauk",
+st-011,reject,90,"The candidate lacks an active state plumbing apprentice registration, which is a mandatory requirement for the job, and also lacks commercial plumbing experience. The candidate's informal experience and willingness to register if sponsored are not sufficient to meet the job's requirements.","['no registered apprenticeship', 'no commercial experience', 'no OSHA 10 certification']",False,8,1,0,523.9,reject,Not a registered plumbing apprentice and only informal residential helper work. Client requires active apprentice card for insurance and journeyman ratio compliance.,skilled_trades,clear,labeled,"Interviewer: Tommy, tell me about your plumbing background.
+Candidate: I've helped my uncle on weekends — toilets, faucets, drain snakes, mostly houses.
+Interviewer: Are you a registered apprentice?
+Candidate: No, we never set that up. It's been cash side work while I figure out the trade.
+Interviewer: This GC requires an active apprentice card for insurance. Any commercial?
+Candidate: Not on a real jobsite. I'd register if the company sponsors me.
+Interviewer: They won't sponsor unregistered he",
+st-012,reject,90,"The candidate, Jason Pike, has a recent failed drug screen, which directly conflicts with the client's zero-tolerance drug policy and automatic disqualification for anyone with a failed screen in the last twelve months. Despite his honesty and efforts to turn his life around, this policy makes it unlikely for him to be selected. His skills and experience are not sufficient to overcome this significant obstacle.","['Recent failed drug screen', ""Client's strict drug policy""]",False,8,1,0,599.2,reject,Candidate disclosed recent failed pre-employment drug screen at prior employer. Client facility requires strict drug-free policy with no exceptions for plumbing apprentice role.,skilled_trades,clear,labeled,"Interviewer: Jason, walk me through your apprentice background.
+Candidate: First-year registered, about ten months commercial rough-in with Blue River.
+Interviewer: Why did you leave?
+Candidate: I failed a random drug screen last month. They let me go. I'm being straight about it — I want a clean start.
+Interviewer: This client does hair follicle testing and won't hire anyone with a failed screen in the last twelve months.
+Candidate: I haven't used since then. I'm in NA meetings now.
+Interviewer",
+st-013,select,90,"Robert Gaines has 5 years of experience as an industrial maintenance mechanic, with specific experience working on conveyors, pneumatic systems, and pumps in a food manufacturing environment, aligning well with the job requirements. His certifications, including OSHA 10 and LOTO, and experience with CMMS (Maximo) further support his candidacy. His ability to work rotating shifts and his reason for leaving his current job due to plant closure also contribute to a positive assessment.",[],False,8,1,0,601.1,select,"Five years industrial maintenance with strong mechanical troubleshooting, current OSHA 10, and experience on pumps, conveyors, and PM programs. Good fit for plant mechanic role.",skilled_trades,clear,labeled,"Interviewer: Robert, this maintenance mechanic role is in a food plant on rotating shifts. Tell me about your experience.
+Candidate: Five years at PackRight on packaging lines — conveyors, fillers, pneumatics, pumps. I run PMs in Maximo and handle breakdowns on second shift.
+Interviewer: OSHA and LOTO?
+Candidate: OSHA 10, LOTO authorized, forklift cert current. No safety write-ups.
+Interviewer: Shift rotation 2nd and 3rd every eight weeks. Workable?
+Candidate: Yes, I've rotated shifts there for ",
+st-014,select,90,"Angela Ruiz has 4 years of relevant experience as a facilities tech and building maintenance mechanic, which aligns with the job requirements. She also possesses the required OSHA 10 certification and has a clean driving record. Her experience with on-call rotations and use of a company van further supports her candidacy.",[],False,8,1,0,775.3,select,"Multi-trade building maintenance background with HVAC, plumbing, and electrical basics. OSHA 10 current; strong fit for facilities mechanic supporting commercial portfolio.",skilled_trades,clear,labeled,"Interviewer: Angela, this is a facilities maintenance mechanic for an office portfolio. What's your background?
+Candidate: Four years with Crown Property — twelve office buildings. HVAC PMs, plumbing clogs, ballasts, door hardware, after-hours leaks.
+Interviewer: OSHA 10?
+Candidate: Yes, current since 2022. I also have EPA Type I for small splits in server rooms.
+Interviewer: On-call one week a month including weekends. OK?
+Candidate: I've done on-call there for two years. My phone is always on ",
+st-015,reject,90,"The candidate lacks direct experience in industrial maintenance or machine repair, and does not possess the required OSHA 10 certification. The candidate's experience as a janitor and fast food crew member does not align with the job requirements, and they acknowledged not having the chance to work on machine repairs or PM work.","['lack of relevant experience', 'missing required certification']",False,8,1,0,722.2,reject,Janitorial and light custodial background only — no mechanical repair experience on production equipment. Does not meet industrial maintenance mechanic requirements.,skilled_trades,clear,labeled,"Interviewer: Marcus, tell me about your maintenance mechanic experience.
+Candidate: I've been janitorial at a factory — mopping, trash, cleaning production floors after shift.
+Interviewer: Any machine repairs or PM work?
+Candidate: Sometimes I change air filters if maintenance is busy. I don't fix conveyors or pumps.
+Interviewer: This role is mechanic-level — bearings, alignments, breakdown response.
+Candidate: I want to move into that but I haven't gotten the chance.
+Interviewer: OSHA 10?
+Candi",
+st-016,reject,90,"The candidate has a medical restriction that prevents him from working above 6 feet, which is a requirement for the job as it involves working at heights on mezzanines and rooftop units. Although he has relevant experience and certifications, his vertigo issue and the resulting medical restriction pose a significant obstacle to performing the essential duties of the position.","['medical restriction', 'inability to perform essential job functions']",False,5,1,0,722.8,reject,Mechanical experience is relevant but candidate cannot work at heights due to medical restriction. Role requires rooftop HVAC and elevated conveyor work — safety disqualifier.,skilled_trades,clear,asr_paragraph,"Screening for maintenance mechanic covering two plants with mezzanine lines and rooftop HVAC.
+
+Three years at Metro on assembly equipment — motors, belts, pneumatics at floor level. OSHA 10 from 2022.
+
+I need to be upfront — I have a vertigo issue after a concussion. My doctor gave a note saying no work above six feet. Metro accommodated me on ground-level jobs only.
+
+This posting mentions rooftop units and mezzanine conveyors regularly. I don't think I can safely do the height parts even with a",
+st-017,select,95,"The candidate has 6 years of experience working on Class 8 trucks, which aligns with the job requirements. He also holds the required CDL Class A license and ASE certifications, including T2 and T4. Additionally, his current schedule matches the early shift and Saturday rotation required by the job, and he has experience with road test drives.",[],False,8,1,0,692.5,select,Six years diesel fleet experience with current CDL Class A and ASE T2/T4 certifications. Strong PM and DOT inspection background; available for early-shift fleet shop role.,skilled_trades,clear,labeled,"Interviewer: Samuel, this is a fleet diesel shop role. Walk me through your background.
+Candidate: Six years at FleetCo on Class 8 trucks — Cummins, Detroit, aftertreatment, brakes, PMs, DOT inspections.
+Interviewer: CDL and ASE status?
+Candidate: CDL Class A, clean MVR. ASE T2 and T4 renewed last fall.
+Interviewer: Early shift starts 5 AM, some Saturdays. OK?
+Candidate: That's my current schedule. No problem.
+Interviewer: Road test drives required occasionally. Any license issues?
+Candidate: No",
+st-018,select,90,"Diane Foster has 4 years of relevant experience as a diesel mechanic with the City of Riverside, which aligns with the job requirements. She also holds a current CDL Class B and has experience with air brakes and hydraulic systems. Although she lacks ASE certifications, her equivalent experience and training, such as the Allison transmission course and hydraulic troubleshooting workshops, make up for it.",[],False,10,1,0,429.5,select,Four years municipal fleet diesel experience with CDL Class B and OSHA 10. Lacks ASE but strong hydraulic and brake work; client accepts equivalent experience for journeyman slot.,skilled_trades,borderline,labeled,"Interviewer: Diane, tell me about your diesel experience.
+Candidate: Four years with Riverside city fleet — fire trucks, dumps, buses. Air brakes, hydraulics, DEF systems.
+Interviewer: ASE certifications?
+Candidate: Not yet. The city used in-house training. I've done Allison trans course and hydraulic troubleshooting workshops.
+Interviewer: CDL?
+Candidate: Class B, current, clean record. I road-test buses after brake jobs.
+Interviewer: This client prefers ASE but allows proven experience. Any go",
+st-019,reject,90,"The candidate lacks experience working on Class 7-8 trucks, does not possess a CDL, and only has ASE certifications for automobiles, which are significant gaps in meeting the job requirements. The candidate also acknowledged the need for training on diesel trucks, indicating a substantial learning curve.","['lack of relevant experience', 'missing required certifications', 'no CDL']",False,8,1,0,623.6,reject,Auto/light-duty mechanic background only with no heavy diesel or Class 7–8 experience. No CDL; role requires road-testing fleet trucks after repair.,skilled_trades,clear,labeled,"Interviewer: Greg, this role is heavy diesel fleet. What's your truck experience?
+Candidate: I've been at Express Auto five years — cars and small SUVs, brakes, suspension, diagnostics.
+Interviewer: Any Class 8 or diesel truck work?
+Candidate: Not really. Maybe a Sprinter van once. Mostly Hondas, Fords, that kind.
+Interviewer: CDL?
+Candidate: No. I don't drive trucks for work.
+Interviewer: We need road tests on repaired semis. ASE diesel?
+Candidate: I have A1 and A4 for automobiles. I'd need tra",
+st-020,reject,90,"The candidate's CDL Class A is currently suspended due to a DUI, which is a requirement for the position, and the client's insurance requires an active CDL for road tests. Although the candidate has the necessary diesel repair experience and ASE T2 certification, the lack of a valid CDL is a significant obstacle. The candidate's ASE T2 certification is also expired, which is another drawback.","['suspended CDL', 'expired ASE T2 certification']",False,8,1,0,707.2,reject,CDL Class A suspended due to DUI — cannot perform required road tests. Diesel experience is otherwise adequate but license disqualification is non-negotiable for fleet role.,skilled_trades,clear,asr_noisy,"Miguel tell me about your diesel background for this fleet account
+
+four years at TransWest on class eight engines brakes after treatment the whole thing
+
+C D L status
+
+I had class A but it's uh suspended right now D U I last year I can get it back in like eight months
+
+this client requires active C D L for road tests insurance won't budge
+
+mechanically I'm strong I just can't legally drive on the road till reinstatement
+
+A S E T two current
+
+it expired twenty twenty four I was gonna renew when ",
+wh-001,select,90,"The candidate has a valid OSHA forklift certification, meets the minimum experience requirement with 2+ years of warehouse forklift experience, and is comfortable with the physical demands of the job. The candidate's current job experience aligns with the job requirements, and they are available to start immediately.",[],False,10,1,0,1003.4,select,"Active OSHA forklift certification, four years sit-down and stand-up experience, available for required 2nd shift.",warehouse,clear,labeled,"Recruiter: Hi Marcus, this is Sarah from Apex Staffing returning your application for the forklift operator role in Dayton. Do you have a minute?
+Candidate: Yeah, sure. I put in for that last week.
+Recruiter: Great. I see you listed MidStates Distribution — are you still there?
+Candidate: Yes ma'am, still working second shift. That's actually why this caught my eye, same shift window.
+Recruiter: Perfect. Your resume shows OSHA cert — is that current?
+Candidate: Renewed it in March, good through ",
+wh-002,select,95,"Daniela has relevant experience as a Picker/Packer at Amazon Fulfillment Center, meeting the required 6+ months of experience. She also expressed comfort with the day shift schedule and has the necessary steel-toe boots. Her previous experience and availability align well with the job requirements.",[],False,8,1,0,821.9,select,"Two years picker/packer at Amazon FC, day shift matches, confirmed Monday start date.",warehouse,clear,labeled,"Sarah: Hi Daniela, Sarah calling from Apex Staffing about the picker packer position in Hebron. Is now okay?
+Candidate: Hi, yes, I'm off today.
+Sarah: You worked at CVG1 for about two years — what were you doing day to day?
+Candidate: Mostly pick and pack on the outbound side. I was running around three twenty units per hour most weeks.
+Sarah: This role is first shift, six AM start. Any conflicts?
+Candidate: No, that's what I want. I left Amazon because I needed days for my kid's school schedule",
+wh-003,select,90,"The candidate has over 1 year of warehouse experience with RF scanner, is familiar with WMS (Manhattan WMOS), and has reliable transportation, meeting the key requirements of the job. Additionally, the candidate's current residence is close to the job location and is comfortable with the shift schedule, including Saturday rotations.",[],False,7,1,0,686.9,select,Three years general warehouse with RF scanner and WMS experience; candidate lives locally in Riverside.,warehouse,clear,asr_paragraph,"Thanks for applying to the warehouse associate role. I'm calling from Apex Staffing. Can you tell me about your current warehouse experience?
+
+I've been at Inland Warehousing for three years. I do receiving and picking on RF guns, mostly Manhattan. I also help on the dock when they're backed up.
+
+This is in Riverside off the 91. How far are you from that location?
+
+About ten minutes. I live on Magnolia, so it's basically local for me.
+
+The shift is first shift with some Saturday rotation. Any is",
+wh-004,select,90,"Patricia has over a year of experience as a shipping clerk, is proficient with UPS WorldShip, and has handled a high volume of parcels daily, which aligns with the job requirements. She also has hazmat awareness training, which is preferred for the role.",[],False,8,1,0,681.5,select,Eighteen months outbound shipping clerk experience with UPS WorldShip; start date confirmed for next Tuesday.,warehouse,clear,asr_paragraph,"Hi Patricia, Apex Staffing here regarding the shipping clerk opening on Frelinghuysen Avenue.
+
+Hi, yes I applied online yesterday.
+
+Walk me through your shipping experience at Harbor Freight Components.
+
+I handle outbound small parcel mostly, UPS and FedEx. I use WorldShip every day, probably a hundred labels on busy days. I also do bills of lading for pallet freight.
+
+We need someone who can jump in on WorldShip quickly. Comfortable with that?
+
+Yes, that's basically my whole job right now. I al",
+wh-005,reject,60,"The candidate has limited RF scanner experience, which is a required skill for the job, having only used it for about six months. However, the candidate is motivated and has a good attendance record, which are positive factors. The decision to send the candidate to the client interview despite the gap in experience suggests that the recruiter sees some potential, but the limited scanner time is a significant concern.",['Limited RF scanner experience'],True,8,1,0,811.4,select,Limited RF scanner tenure (six months) but strong attendance and supervisor reference; recruiter advanced to client interview.,warehouse,borderline,asr_paragraph,"Tyler, thanks for picking up. I'm with Apex Staffing on the warehouse associate role in Lowell.
+
+Hey, yeah, I've been waiting to hear back on that one.
+
+Your resume shows about a year at New England Paper Goods. How much RF scanner work?
+
+Honestly about six months on the gun. Before that I was on the loading dock without scanners. But I've gotten pretty fast — my supervisor Mark can vouch for me.
+
+The client wants someone comfortable on RF from day one. That's a gap. What's your pick rate like n",
+wh-006,select,80,"Robert Kowalski has the required experience as a forklift operator, including experience in cold-storage, and is available for third-shift work. Although his OSHA certification has expired, he has a retest scheduled and is willing to provide confirmation of his certification once he passes. The interviewer seems willing to move forward with the candidate if he can provide the necessary certification.",['expired OSHA certification'],False,8,1,0,766.8,select,Forklift cert expired two months ago but renewal exam scheduled Friday; six years experience; recruiter proceeding pending cert upload.,warehouse,borderline,asr_noisy,"Hi Robert um Apex Staffing calling about the four lift job in Kenosha. You still interested?
+
+Yeah definitely I'm on third shift now so the hours line up.
+
+I see six years on four lifts at Great Lakes Beverage. Cert status?
+
+So mine expired in April I slacked on renewal. I got the retest booked this Friday at the safety training center.
+
+Client won't let anyone on a lift without current Osha card. That's a problem.
+
+I know I know. I've been operating the whole time though zero incidents. I can e",
+wh-007,select,95,"The candidate has prior experience as a Picker/Packer at the same site, met a high accuracy standard, and is familiar with the layout. They also have a reasonable commute, reliable transportation, and are available for an immediate start. The candidate's previous experience and knowledge of the site reduce the risk of a poor fit.",[],False,9,1,0,673.5,select,"Lives twelve minutes from site, prior temp assignment at same client, confirmed 6 AM start availability.",warehouse,clear,labeled,"Recruiter: Angela, hi, it's Megan from Apex Staffing. You applied for the HomeStyle picker packer role — I actually see you temped there before.
+Candidate: Yes, in twenty twenty-three. I had to leave when my mom got sick.
+Recruiter: Understood. Are you looking to go back to that same building?
+Candidate: Yes, I liked the team. I know the layout already.
+Recruiter: It's a six AM sharp start. How far are you from the DC?
+Candidate: Twelve minutes. I'm on Sycamore off Cox Creek.
+Recruiter: And your",
+wh-008,select,90,"The candidate, Devon Hayes, meets all the requirements listed in the job description, including current OSHA certification on reach truck and order picker, 2+ years of narrow-aisle experience, and comfort with heights up to 30 ft. The candidate's current schedule aligns with the job's shift requirements, and they are motivated by the pay bump.",[],False,10,1,0,711.0,select,Active OSHA forklift certification covering cherry picker and stand-up; four years distribution center experience.,warehouse,clear,asr_paragraph,"Devon Hayes? Hi, Apex Staffing regarding the forklift position at the grocery DC in Grove City.
+
+Speaking. I've been expecting your call.
+
+Which equipment are you certified on?
+
+Reach truck, order picker — we call it cherry picker — and stand-up counterbalance. All on one OSHA card renewed last year, good through twenty twenty-six.
+
+How much narrow-aisle work?
+
+Four years at Central Ohio Fulfillment. Daily slotting in thirty-foot racking.
+
+Second shift Tuesday through Saturday. Any conflicts?
+
+T",
+wh-009,select,90,"The candidate, Christopher Vega, has the required experience as a shipping clerk, is familiar with multi-carrier shipping software, and holds a current hazmat awareness certification. His current work schedule aligns with the job's first shift, and he is available to start after the background check clears.",[],False,8,1,0,732.6,select,Eighteen months outbound shipping experience with current hazmat awareness training; matches first shift.,warehouse,clear,asr_noisy,"Is this Christopher Vega? Apex Staffing uh calling about the shipping clerk role in Allentown.
+
+Yes ma'am that's me.
+
+I see hazmat awareness on your resume — is that current?
+
+Renewed January twenty twenty five yeah I process LTL and parcel outbound about sixty to ninety orders a day.
+
+First shift seven thirty to four. Any conflicts?
+
+No I'm on first now at Lehigh Valley Industrial. Same hours actually.
+
+Can you start after background clears next Tuesday?
+
+Yes I'll be there.",
+wh-010,select,90,"The candidate has relevant cross-dock experience, is available for third shift, and has experience with pallet jacks, which aligns with the job requirements. The candidate also expressed a desire for the role and its benefits, such as closer proximity to home and higher pay.",[],False,11,1,0,657.1,select,"Night shift availability matches, two years cross-dock warehouse experience, clean background expected.",warehouse,clear,labeled,"Recruiter: Kevin O'Brien? Hi, this is Jordan from Apex Staffing about the warehouse associate role at the crossdock on American Way.
+Candidate: Hey Jordan. Yeah I applied Friday night.
+Recruiter: I see crossdock experience at Mid-South. Still there?
+Candidate: Yep, on nights. Looking for something closer to home and a little more pay.
+Recruiter: This is third shift, eleven PM to seven thirty. Same as now?
+Candidate: Same hours actually. I'm a night person, works for my family.
+Recruiter: Any cri",
+wh-011,reject,95,"The candidate lacks a current OSHA forklift certification, which is a mandatory requirement for the job. The candidate has experience around forklifts but not as a certified operator, and the client requires certification from day one.","['lack of certification', 'inexperience as a forklift operator']",False,9,1,0,787.6,reject,"No OSHA forklift certification; candidate only operated manual pallet jacks, client requires certified operator on day one.",warehouse,clear,labeled,"Recruiter: Luis, hi, Apex Staffing calling about the forklift operator job you applied for.
+Candidate: Hi, yes. I've been around forklifts a lot at my warehouse.
+Recruiter: Do you hold a current OSHA forklift certification?
+Candidate: Not officially. I move pallets with the manual jack mostly. Sometimes the certified guys let me practice on the sit-down.
+Recruiter: This client won't allow uncertified operators on equipment. It's a hard requirement.
+Candidate: Could I get certified after I start?",
+wh-012,reject,95,"The candidate, Michelle Park, is unable to commit to the mandatory rotating Saturday shift due to her Sunday class preparations, which directly conflicts with the job requirement. Despite her relevant experience as a Picker/Packer, her unavailability for the required schedule makes her a less suitable fit for the position.","['scheduling conflict', 'attendance issues']",False,9,1,0,709.9,reject,Candidate requires weekends off; role mandates rotating Saturday shifts every other week.,warehouse,clear,labeled,"Sarah: Hi Michelle, Sarah from Apex Staffing about the picker packer role in Commerce.
+Candidate: Hi! I have fulfillment experience so I thought I'd be a good fit.
+Sarah: You do — WestCoast Apparel looks solid. This site runs a rotating Saturday every other week. Can you commit to that?
+Candidate: Oh, I didn't realize Saturdays were required. I take classes Sunday prep and I really can't work Saturdays.
+Sarah: Unfortunately the client doesn't offer weekend waivers. It's in the contract.
+Candidat",
+wh-013,reject,90,"The candidate lacks the required reach truck certification and experience, and the client cannot accommodate on-the-job training. Although the candidate is willing to obtain reach training on their own, the lead time is too long and the client needs someone immediately.","['lack of required certification', 'insufficient experience']",False,8,1,0,714.3,reject,Sit-down forklift certified but client requires reach truck certification on day one; candidate willing to train but client declined wait.,warehouse,borderline,asr_paragraph,"Andre Williams? Apex Staffing following up on the forklift role at the parts DC.
+
+Yes sir. I've got four years on forklifts, OSHA cert is current.
+
+The equipment there is primarily reach trucks in twenty-foot racking. Have you operated reach?
+
+Not yet. My cert is sit-down counterbalance. I've watched the reach guys — I'm confident I could learn fast.
+
+I appreciate that, but this client specifically said no training period. They've been burned before.
+
+What if I took reach training on my own this",
+wh-014,reject,90,"The candidate has a prior history of attendance issues, specifically three no-call no-shows in six weeks, which is a significant concern given the client's strict attendance policy. The candidate's explanation of car trouble and promise to improve is not sufficient to overcome this history, especially since the client requires six clean months elsewhere before reconsidering.","['attendance issues', 'prior NCNS pattern']",False,9,1,0,960.8,reject,Agency records show three no-call/no-show incidents on last warehouse assignment in past six months.,warehouse,clear,asr_paragraph,"Jasmine Cole? Hi, Apex Staffing regarding your new application for the warehouse role in Gary.
+
+Hi, yes. I worked through you guys before at Steel City Logistics.
+
+I see that assignment. Can you tell me what happened when that ended?
+
+I had some car trouble and missed a few days. I should have called but I didn't.
+
+Our records show three no-call no-shows in six weeks. That's an automatic flag.
+
+I've got a new car now. It won't happen again.
+
+The client shares attendance data with us. They won't ",
+wh-015,reject,80,"The candidate lacks the minimum required 6 months of pick/pack or fulfillment experience, having only two months of experience in the field. Although the candidate claims to be a fast learner, the client's requirement is strict and non-negotiable.",['insufficient experience'],False,8,1,0,762.1,reject,Only two months warehouse experience versus six-month minimum required; positive attitude but insufficient tenure.,warehouse,borderline,asr_noisy,"Ethan Brooks? Uh Apex Staffing about the picker packer job.
+
+Yeah that's me. I applied last night.
+
+You started at QuickShip in March — so about two months warehouse?
+
+Yeah March. Before that Walmart stocking.
+
+Client wants six months minimum pick pack experience. How do you compare?
+
+I'm fast learner though. I'm hitting rate already.
+
+I hear you but they won't flex on tenure. I'd reapply in four months.
+
+Okay thanks for being straight with me.",
+wh-016,reject,90,"The candidate, Sandra Mitchell, expressed that her maximum lifting capacity is about 35 pounds, which is below the job requirement of lifting up to 50 pounds regularly. She also mentioned that in her current role, heavier items are routed to the dock crew, indicating that she may not be accustomed to handling heavy cartons independently. The client's inability to accommodate light duty on lifts further supports this decision.","['lifting capacity', 'job requirements mismatch']",False,7,1,0,903.2,reject,Shipping experience qualifies but candidate cannot meet fifty-pound lift requirement; comfortable maximum is thirty-five pounds.,warehouse,borderline,asr_noisy,"Sandra Mitchell? Apex Staffing calling bout the shipping clerk opening.
+
+Hi yes I'm interested.
+
+This role requires lifting up to fifty pounds regularly. Comfortable?
+
+Um honestly my max is about thirty five. Heavier stuff goes to the dock crew at my current job.
+
+Client won't accommodate light duty on lifts. It's industrial equipment parts.
+
+I understand. I don't want to get placed somewhere I can't do the work.
+
+I'll note that and keep you in mind for data entry openings.",
+wh-017,reject,95,"The candidate, Marcus Delgado, has a recent history of failing a drug screen, which is a requirement for the job. The client explicitly states that a clean screen is required from day one with no exceptions. The candidate's admission of a failed drug screen and understanding of the client's policy suggests that they are aware of the issue but cannot meet the requirement at this time.","['Recent failed drug screen', ""Inability to meet client's drug screen requirement""]",False,7,1,0,771.9,reject,Candidate disclosed failed pre-employment drug screen at prior staffing placement three months ago; client requires clean screen.,warehouse,clear,asr_noisy,"Marcus Delgado? Hi um Apex Staffing about the warehouse job in Phoenix.
+
+Yeah.
+
+Quick question — any issues on drug screen for recent assignments?
+
+Yeah I failed one at LaborReady about three months ago. Building supply temp job.
+
+This client requires clean screen day one. No exceptions.
+
+I figured. I'm clean now but I get it.
+
+Reapply after six months with documentation if you want.",
+wh-018,reject,95,"The candidate explicitly stated that they are not available for third shift and need to be home evenings for the kids, which directly conflicts with the job's third-shift requirement. The candidate also showed interest in a different first-shift role, further indicating that the current shift is not suitable for them.","['availability mismatch', 'shift inflexibility']",False,9,1,0,993.5,reject,Available only for first shift; position is third shift 10 PM to 6 AM with no shift-swap option.,warehouse,clear,labeled,"Recruiter: Brian Foster? Hi, Apex Staffing on the forklift role at the cold storage DC.
+Candidate: Hey. I saw the pay and I've got the experience.
+Recruiter: Your H-E-B background looks great. This is third shift, ten PM to six thirty. Is that workable?
+Candidate: Oh, I didn't catch that in the posting. I only work days. I have Reserve drill some weekends but nights are a no-go.
+Recruiter: This account is strictly third shift. They don't offer rotations or swaps.
+Candidate: My wife works nights ",
+wh-019,reject,80,"Alyssa lacks the required 6 months of warehouse pick/pack experience, and her retail stocking experience does not qualify for this position. She expressed willingness to learn, but the client's requirements are specific and she does not meet them.",['lack of relevant experience'],False,9,1,0,734.1,reject,"No warehouse or manufacturing experience; background is retail cashier only, client requires six months fulfillment minimum.",warehouse,clear,asr_paragraph,"Alyssa Turner? Hi, this is Apex Staffing calling about the picker packer position in Boise.
+
+Hi! I'm really interested in getting into warehouse work.
+
+Tell me about any warehouse or fulfillment experience on your resume.
+
+I work at Kohl's now. I fold clothes and sometimes help stock when they're busy. Before that Dutch Bros.
+
+Have you ever worked in a dedicated warehouse or distribution center?
+
+Not exactly. But I'm a hard worker and I want to learn.
+
+The client requires six months actual wareh",
+wh-020,reject,95,"The candidate's OSHA certification only includes stand-up counterbalance forklifts, which does not meet the job requirement of having both sit-down and reach truck certifications. The candidate also lacks experience operating reach trucks, which further supports the rejection decision.","['certification mismatch', 'lack of required experience']",False,7,1,0,694.3,reject,OSHA certification covers stand-up forklift only; client requires sit-down and reach truck certification on day one.,warehouse,clear,asr_noisy,"Gregory Shaw? Apex Staffing uh following up on the four lift operator application.
+
+Hey yeah still interested.
+
+Your cert is stand up counterbalance only. Client needs sit down and rich truck day one.
+
+I could get trained on sit down pretty quick. Rich might take longer.
+
+Client won't wait. Three no starts this month on cert mismatches.
+
+So I'm out for this one?
+
+For this role yes. Get dual certified and call us back.",

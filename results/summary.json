@@ -1,0 +1,30 @@
+{
+  "n": 100,
+  "accuracy": 0.95,
+  "precision_select": 0.9787234042553191,
+  "recall_select": 0.92,
+  "f1_select": 0.9484536082474226,
+  "ece": 0.47950000000000015,
+  "high_confidence_error_rate": 0.010526315789473684,
+  "dataset": "staffing_screen_eval_v1",
+  "sample_size": 100,
+  "seed": 42,
+  "llm_provider": "groq",
+  "llm_model": "llama-3.3-70b-versatile",
+  "scorer_prompt": "scorer_v1.txt",
+  "interviewer_prompt": "interviewer_v1.txt",
+  "scorer_prompt_sha256_8": "007c998b",
+  "interviewer_prompt_sha256_8": "f2e84e04",
+  "enable_followups": false,
+  "followup_mode": "end",
+  "concurrency": 10,
+  "n_scored": 100,
+  "n_failed": 0,
+  "wall_clock_ms": 7002.3,
+  "latency": {
+    "p50_ms": 639.6,
+    "p95_ms": 832.1,
+    "mean_ms": 654.2
+  },
+  "total_llm_calls": 100
+}

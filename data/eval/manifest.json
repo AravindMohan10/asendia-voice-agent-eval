@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "name": "staffing_screen_eval_v1",
+  "description": "Staffing-agency phone screen eval set. Models Sarah-style ingestion: mixed labeled transcripts, ASR paragraph blocks, and light ASR noise. 50/50 select/reject. Ground truth = recruiter submit decision.",
+  "record_count": 100,
+  "select_count": 50,
+  "reject_count": 50,
+  "verticals": {
+    "warehouse": 20,
+    "healthcare": 20,
+    "call_center": 20,
+    "skilled_trades": 20,
+    "admin": 20
+  },
+  "ingest_formats": {
+    "labeled": 44,
+    "asr_paragraph": 29,
+    "asr_noisy": 27
+  },
+  "difficulties": {
+    "clear": 77,
+    "borderline": 23
+  },
+  "schema_version": "1.0"
+}
