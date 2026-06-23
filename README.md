@@ -1,6 +1,6 @@
 # Asendia Voice Agent Eval
 
-Eval harness for AI candidate screening agents — built as a Product Engineer application project for [Asendia AI](https://asendia.ai).
+Eval harness for AI candidate screening agents: built as a Product Engineer application project for [Asendia AI](https://asendia.ai).
 
 **Primary metric: confidence calibration (ECE), not accuracy alone.**
 
@@ -10,9 +10,14 @@ Eval harness for AI candidate screening agents — built as a Product Engineer a
 |--------|-------|
 | Golden set | 100 staffing phone screens ([spec](docs/DATASET.md)) |
 | Accuracy | **95.0%** |
-| **ECE (calibration)** | **0.48** |
+| **ECE (Expected calibration Error)** | **0.48** |
 | High-confidence error rate (≥80, wrong) | **1.1%** (1 case) |
 | Model | Groq `llama-3.3-70b-versatile` · seed 42 |
+
+When the agent says “80% confident”, that should mean: about 80% of those calls were actually correct.
+
+Low ECE (good): Confidence matches reality. You can trust thresholds like “auto-submit if ≥ 80.”
+High ECE (bad): Confidence is misleading — the agent might be right often but wrong about how sure it is.
 
 ![Confidence calibration](results/calibration.png)
 
@@ -84,7 +89,3 @@ python scripts/run_eval.py --no-followups --concurrency 10 --seed 42
 ├── docs/REPORT.md               # Findings + Asendia deployment plan
 └── scripts/run_eval.py
 ```
-
-## Status
-
-✅ Golden set built · ✅ Full eval run · ✅ Results committed · Ready for review
